@@ -6,7 +6,7 @@ This is a Personal Training website designed to help provide information to peop
 
 Ideally most users of this website are perhaps considering getting themselves a personal trainer. They will find this website useful, they would have hopefully learned at least one new thing about workouts or nutrition, they would have learnt more about myself and my PT business, but ultimately, they end up completing the enquiry form at the end, in the hopes that they end up becoming a client of mine.
  
-(TABLE OF CONTENTS)
+## TABLE OF CONTENTS
 
 | Section | Line it starts on | 
 | --- | --- |
@@ -20,10 +20,10 @@ Ideally most users of this website are perhaps considering getting themselves a 
 | Credit | line ... |
 | Future Features | line ... |
 
-(FEATURES)
+## FEATURES
 talk about the webiste features, what they are intended to do and perhaps explain why. Why that layout/structure.
 
-(UX/UI SECTION)
+## UX/UI SECTION
 The sections you should have here 
 ● Site Goals
 ● Design choices
@@ -34,7 +34,7 @@ The sections you should have here
 
 Include screenshots
 
-(TESTING)
+## TESTING
 Did you test html code on W3C validator or CSS code on (Jigsaw) validator. Convince reader that enough testing has been done and that the site works well.
 
 | Feature | Expect | Action | Result |
@@ -44,10 +44,10 @@ Did you test html code on W3C validator or CSS code on (Jigsaw) validator. Convi
 
 Include screenshots
 
-(UNFIXED BUGS)
+## UNFIXED BUGS
 Are there any? Why have they not been fixed?
 
-(DEPLOYMENT)
+## DEPLOYMENT
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -56,9 +56,9 @@ From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here -
 
-(CREDIT)
+## CREDIT
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-(FUTURE FEATURES)
+## FUTURE FEATURES
