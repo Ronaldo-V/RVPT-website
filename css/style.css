@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+.navbar-nav {
+    text-align: right;
+}
+
+/*---------------------------------Footer */
+
+footer {
+    background-color: #616161;
+    color: #f5f5f5;
+    min-height: 120px;
+    margin: 0;
+    text-align: center;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 28px;
+    line-height: 2px;
+    color: #f5f5f5;
+    background-color: #979797;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #4500a6;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+
+.footer-details {
+    background-color: #616161;
+}
