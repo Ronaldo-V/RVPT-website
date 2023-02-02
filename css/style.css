@@ -7,20 +7,79 @@ body {
 }
 
 body p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 /*---------------------------------Navbar */
 
+nav {
+    background-color: #000000;
+    color: #f5f5f5;
+    font-weight: 400;
+    font-size: 25px;
+    min-height: 40px;
+}
 
-/*---------------------------------Sections and background images */
+#pt-logo {
+    height: auto;
+    width: auto;
+    float: left;
+    margin: 0 auto; 
+}
+
+.nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #f5f5f5;
+    padding-bottom: 20px;
+}
+
+nav a:hover{
+    color: #065e00;
+    text-decoration: underline;
+}
+
+/*--------------------------------- All images */
 
 
-/*---------------------------------Hero image and about me section*/
 .hero-image {
     background-image: url("images/16:9-images/hero-image.jpg");
     background-color: #065e00;
+}
+
+.weightlifting-image {
+    background-image: url("images/16:9-images/weightlifting-photo.jpg");
+    background-color: #065e00;
+}
+
+.running-image {
+    background-image: url("images/16:9-images/running-photo.jpg");
+    background-color: #065e00;
+}
+
+.stretching-image {
+    background-image: url("images/16:9-images/stretching-photo.jpg");
+    background-color: #065e00;
+}
+
+.carbs-image {
+    background-image: url("images/16:9-images/carbs-photo.jpg");
+    background-color: #065e00;
+}
+
+.protein-image {
+    background-image: url("images/16:9-images/prawns-photo.jpg");
+    background-color: #065e00;
+}
+
+.fats-image {
+    background-image: url("images/16:9-images/smoothie-photo.jpg");
+    background-color: #065e00;
+}
+
+.text-image {    
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,80 +87,47 @@ body p {
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-  }
+}
+
+.shade {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+}
+
+/*--------------------------------- All text */
 
 #hero-text {
-    background-color: rgba(7, 32, 5, 0.55);
     background-clip: content-box, padding-box;
     color: #f5f5f5;
     text-align: center;
     padding-top: 25vh;
-
 }
 
-.hero-image h2 {
-    text-decoration: underline;
+.website-heading {
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 500;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 20px;
 }
 
 .hero-image h4 {
-
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
-.hero-image h6 {
-
+#certs {
     font-weight: 20px;
     font-weight: 400;
     font-style: italic;
 }
 
-/*---------------------------------Testimonials section*/
-
-
-/*---------------------------------Section Headings/paragraphs/qutoes/certs/facts */
-/*---------------------------------Workout benefits tables */
-/*---------------------------------Nutrition Top 5s */
-/*---------------------------------Enquire form */
-/*---------------------------------Footer */
-#about-me-section {
-background-image: url("css/images/16:9 images/hero-image.jpg");
-background-size: cover;
-}
-
 #testimonials-section{
-    background-color: #f5f5f5;
-    color: #343a40;
-}
-/*---------------------------------Section Headings */
-.section-heading {
-    font-weight: 700;
-}
-
-
-#about-me {}
-
-#testimonials {}
-
-#weight-training {}
-
-#cardio-training{}
-
-#stretch-training{}
-
-/*---------------------------------Section Heading Contents */
-
-.section-sub-headings {    
-    font-weight: 500;
-    padding: 10px 0px;
-    font-size: 22px
-}
-
-#certs {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    color: #000000;
 }
 
 .client-headings {
@@ -110,41 +136,82 @@ background-size: cover;
 }
 
 .review{
+    font-size: 20px;
+    font-weight: 400;
     padding: 5px 30px;
 }
 
-.section-heading p {
-    padding-top: 30px;
-    padding-bottom: 10px;
+.section-text {
+    background-clip: content-box, padding-box;
+    color: #f5f5f5;
+    text-align: center;
+    padding-top: 5vh;
 }
 
-.benefits-list li {
-    font-size: 18px;
-    display: inline-table;
-    padding: 10px 35px;
+.section-heading {
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 700;
 }
 
+.section-sub-headings {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.table,
 .top-5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.top-5 li {
+    margin: 0;
+    padding: 0;
     list-style: none;
-    font-size: 18px;
     text-align: center;
 }
 
-.top-5 li{
-    text-align: center;
+.section-text p {
+    font-weight: 25px;
+    font-weight: 500;
 }
-/*---------------------------------Footer */
+
+#form-section {
+    padding-top: 40px;
+}
+
+/*--------------------------------- Footer */
 
 footer {
-    background-color: #616161;
+    background-color: #000000;
     color: #f5f5f5;
+    font-weight: 400;
+    font-size: 25px;
     min-height: 120px;
     margin: 0;
     text-align: center;
 }
 
+footer a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #f5f5f5;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #065e00;
+}
+
 .social-links {
+    padding-top: 15px;
     padding-bottom: 15px;
+    text-align: center;
+    padding: 0;
 }
 
 .social-links li a i {
@@ -162,14 +229,9 @@ footer {
 }
 
 .social-links li a i:hover {
-    background-color: #27c31b;
+    background-color: #065e00;
 }
 
 #footer-details {
     padding: 20px;
-}
-
-
-.footer-details {
-    background-color: #343a40;
 }

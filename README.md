@@ -68,30 +68,38 @@ You can break the credits section up into Content and Media, depending on what y
 ### Links used for text content only:  
 
 #### Links used for Workout Info:  
-https://www.realbuzz.com/articles-interests/fitness/article/what-is-cardiovascular-training/  
-https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/aerobic-exercise/art-20045541  
-https://www.healthline.com/health/fitness-exercise/benefits-of-aerobic-exercise  
-https://www.health.harvard.edu/staying-healthy/the-importance-of-stretching  
+
+Weightlifting:  
+- https://personaltouchfitness.co.uk/healthy-advice/physical-wellbeing/muscular-endurance/#:~:text=Muscular%20endurance%20is%20the%20ability,of%20repetitions%20you%20could%20complete  
+
+Cardio:  
+- https://www.realbuzz.com/articles-interests/fitness/article/what-is-cardiovascular-training/  
+- https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/aerobic-exercise/art-20045541  
+- https://www.healthline.com/health/fitness-exercise/benefits-of-aerobic-exercise  
+
+Stretching:  
+- https://www.health.harvard.edu/staying-healthy/the-importance-of-stretching  
  
 #### Links used for Nutrition:
 
 Carbs:  
-https://www.reidhealth.org/blog/carbohydrates-101-the-benefits-of-carbohydrates#:~:text=Carbohydrates%20are%20your%20body's%20main,blood%20cholesterol%20levels%20in%20check  
-https://medlineplus.gov/carbohydrates.html#:~:text=What%20are%20carbohydrates%3F,cells%2C%20tissues%2C%20and%20organs  
-https://www.newhealthadvisor.org/Sources-of-Carbohydrates.html#:~:text=Best%20Sources%20of%20Carbohydrates%201%201.%20Sweet%20Potato,Bananas%20...%208%208.%20Chestnuts%20...%20More%20items  
+- https://www.reidhealth.org/blog/carbohydrates-101-the-benefits-of-carbohydrates#:~:text=Carbohydrates%20are%20your%20body's%20main,blood%20cholesterol%20levels%20in%20check  
+- https://medlineplus.gov/carbohydrates.html#:~:text=What%20are%20carbohydrates%3F,cells%2C%20tissues%2C%20and%20organs  
+- https://www.newhealthadvisor.org/Sources-of-Carbohydrates  
+- html#:~:text=Best%20Sources%20of%20Carbohydrates%201%201.%20Sweet%20Potato,Bananas%20...%208%208.%20Chestnuts%20...%20More%20items  
 
 
 Protein:  
-https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/protein/  
-https://www.nutrition.org.uk/healthy-sustainable-diets/protein/?level=Consumer  
-https://www.mountsinai.org/health-library/tests/hemoglobin  
-https://weighttraining.guide/nutrition/protein-in-weight-training/#:~:text=Why%20is%20protein%20important%20for%20weight%20training%3F%20Protein,fibers%20after%20they%20have%20been%20damaged%20by%20workouts  
-https://www.bbcgoodfood.com/howto/guide/best-sources-protein  
+- https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/protein/  
+- https://www.nutrition.org.uk/healthy-sustainable-diets/protein/?level=Consumer  
+- https://www.mountsinai.org/health-library/tests/hemoglobin  
+- https://weighttraining.guide/nutrition/protein-in-weight-training/#:~:text=Why%20is%20protein%20important%20for%20weight%20training%3F%20Protein,fibers%20after%20they%20have%20been%20damaged%20by%20workouts  
+- https://www.bbcgoodfood.com/howto/guide/best-sources-protein  
 
  
 Fats:  
-https://www.nhs.uk/live-well/eat-well/food-types/different-fats-nutrition/  
-https://meritagemed.com/15-good-fats-eat/#:~:text=15%20Good%20Fats%20To%20Eat%201%201.%20Dark,...%208%208.%20Fatty%20Fish%20...%20More%20items  
+- https://www.nhs.uk/live-well/eat-well/food-types/different-fats-nutrition/  
+- https://meritagemed.com/15-good-fats-eat/#:~:text=15%20Good%20Fats%20To%20Eat%201%201.%20Dark,...%208%208.%20Fatty%20Fish%20...%20More%20items  
 
 
 #### Links used for README.md file:  
@@ -101,6 +109,8 @@ https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 - https://torquemag.io/2022/05/customize-text-css/#:~:text=You%20simply%20determine%20the%20element,such%20as%20serif%20or%20monospace%20  
 - https://webaim.org/resources/contrastchecker/  
 - https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding  
+- https://medium.com/@dylanon/throwing-shade-how-to-shade-images-in-html-css-9d37b17b9d10  
+
 
  
 
