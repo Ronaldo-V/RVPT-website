@@ -19,10 +19,12 @@ nav {
     font-weight: 400;
     font-size: 25px;
     min-height: 40px;
+    max-height: 60px;
 }
 
-#pt-logo {
-    height: auto;
+#pt-logo-nav {
+    min-height: 40px;
+    max-height: 60px;
     width: auto;
     float: left;
     margin: 0 auto; 
@@ -45,37 +47,37 @@ nav a:hover{
 
 
 .hero-image {
-    background-image: url("images/16:9-images/hero-image.jpg");
+    background-image: url("images/hero-image.jpg");
     background-color: #065e00;
 }
 
 .weightlifting-image {
-    background-image: url("images/16:9-images/weightlifting-photo.jpg");
+    background-image: url("images/weightlifting-photo.jpg");
     background-color: #065e00;
 }
 
 .running-image {
-    background-image: url("images/16:9-images/running-photo.jpg");
+    background-image: url("images/running-photo.jpg");
     background-color: #065e00;
 }
 
 .stretching-image {
-    background-image: url("images/16:9-images/stretching-photo.jpg");
+    background-image: url("images/stretching-photo.jpg");
     background-color: #065e00;
 }
 
 .carbs-image {
-    background-image: url("images/16:9-images/carbs-photo.jpg");
+    background-image: url(images/carbs-photo.jpg);
     background-color: #065e00;
 }
 
 .protein-image {
-    background-image: url("images/16:9-images/prawns-photo.jpg");
+    background-image: url("images/prawns-photo.jpg");
     background-color: #065e00;
 }
 
 .fats-image {
-    background-image: url("images/16:9-images/avocado-photo.jpg");
+    background-image: url("images/avocado-photo.jpg");
     background-color: #065e00;
 }
 
@@ -96,15 +98,17 @@ nav a:hover{
     position: absolute;
 }
 
-/*--------------------------------- All text */
-
-#hero-text {
-    background-clip: content-box, padding-box;
-    color: #f5f5f5;
-    text-align: center;
-    padding-top: 25vh;
+#pt-logo-enquire {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
 
+/*--------------------------------- All text */
 .website-heading {
     font-size: 60px;
     font-weight: 500;
@@ -114,6 +118,15 @@ nav a:hover{
     text-decoration: underline;
     margin-bottom: 20px;
 }
+
+#hero-text {
+    background-clip: content-box, padding-box;
+    color: #f5f5f5;
+    text-align: center;
+    padding-top: 25vh;
+}
+
+
 
 .hero-image h4 {
     font-size: 25px;
@@ -126,7 +139,7 @@ nav a:hover{
     font-style: italic;
 }
 
-#testimonials-section{
+#testimonials-section {
     color: #000000;
 }
 
@@ -135,7 +148,7 @@ nav a:hover{
     padding: 10px;
 }
 
-.review{
+.review {
     font-size: 20px;
     font-weight: 400;
     padding: 5px 30px;
@@ -178,10 +191,42 @@ nav a:hover{
     font-weight: 500;
 }
 
-#form-section {
+/*--------------------------------- Form */
+#enquire-text {
     padding-top: 40px;
 }
 
+#form-text {
+    background-color: #31522e;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.health-concern {
+    width: auto;
+    height: 60px;
+}
+
+.submit-button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    background-color: #11ff00;
+    border: black solid 2px;
+    color: #000000;
+    padding: 30px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.submit-button:hover {
+    background-color: #065e00;
+    color: #f5f5f5;
+}
 /*--------------------------------- Footer */
 
 footer {
