@@ -1,4 +1,4 @@
-![RVPT logo](css/images/other-images/pt-logo-black-font.jpg)
+![RVPT logo](css/images/pt-logo-black-font.jpg)
 
 # RVPT WEBSITE
 
@@ -6,19 +6,21 @@ This is a Personal Training website designed to help provide information to peop
 
 Ideally most users of this website are perhaps considering getting themselves a personal trainer. They will find this website useful, they would have hopefully learned at least one new thing about workouts or nutrition, they would have learnt more about myself and my PT business, but ultimately, they end up completing the enquiry form at the end, in the hopes that they end up becoming a client of mine.
  
+
 ## TABLE OF CONTENTS
 
 | Section | Line it starts on | 
 | --- | --- |
 | Project Logo, title and desciption | line 1 |
 | Table of Contents | line 9 |
-| Features | line 23 |
-| UX / UI Section | line ... |
+| Features | line 25 |
+| UX / UI Section | line 40 |
 | Testing | line ... |
 | Unfixed Bugs | line ... |
 | Deployment | line ... |
 | Credit | line ... |
 | Future Features | line ... |
+
 
 ## FEATURES
 - The navbar has a logo of the business with a dark background to separate it from the page contents.  
@@ -36,22 +38,53 @@ Ideally most users of this website are perhaps considering getting themselves a 
 
 
 ## UX/UI SECTION  
-Site Goals:
--  
 
-Design Choices:
+### Site Goals:
+-  The goals of this site is inform users about the Personal Training business, general health and fitness knowledge and make them wanting more and signing up for PT sessions. The site should be easy to navigate through, consistent with design, as well as make users want to visit again. It should be aestetically pleasing with all text being clear to read, all generating a good user experience.  
+
+### Design Choices:
+- Black navbar and footer have been choosen to be this color to clearly separate it from the main conents of the page.  
+- Green color when hovering is meant to indicate grass as most sessions will be outside at local parks.  
+- Colorful photos, with all workout photos being outdoors as this will be the primary location of sessions.  
+
+### User Stories:
+As a person new to fitness:
+- I am looking to learn some information about workouts and food to hel get me started  
+- I want to learn about the Personal Trainer and see if they know their stuff and can bring me value  
+- I want to see if I can envision doing private sessions with the trainer by gettin to know them better  
+- I want to trust this trainer by seeing reviews/testimonials
+
+As an experienced gym-goer starting to plateau:
+- I am exploring the possibility of getting myself a trainer to help me    
+- I want to leave this website knowing more stuff that can help me  
+
+As a person wanting a PT:
+- I need to see value in a trainer  
+- I need to see testimonials  
+- I need to work out if I will get along with them  
+
+As an existing client:
+- I need a place where I can track workouts/food intake  
+- I need support from others going through the same process as me  
+- I need extra benefits for being a client  
+
+### Wireframes:
+- To see the initial stage of the wireframe, press on this link:  
+- [To see the second and final wireframe design, press on this link](file:///D:/PT%20photos%20for%20website/PT%20website%20wireframe.pdf)  
+
+
+- ![RVPT website wireframe](wireframes/wireframe1.png.jpg)  
+- ![RVPT website wireframe](wireframes/wireframe2.png.jpg)  
+- ![RVPT website wireframe](wireframes/wireframe3.png.jpg)  
+- ![RVPT website wireframe](wireframes/wireframe4.png.jpg)  
+- ![RVPT website wireframe](wireframes/wireframe5.png.jpg)  
+- ![RVPT website wireframe](wireframes/wireframe6.png.jpg)  
+- ![RVPT website wireframe](wireframes/wireframe7.png.jpg)  
+
+## Database structure (PP3, PP4, PP5):
 - 
 
-User Stories:
--
-
-Wireframes:
-- 
-
-Database structure (PP3, PP4, PP5):
-- 
-
-Anything else relating to UX/UI:
+## Anything else relating to UX/UI:
 - 
 
 
@@ -67,8 +100,10 @@ Did you test html code on W3C validator or CSS code on (Jigsaw) validator. Convi
 
 Include screenshots
 
+
 ## UNFIXED BUGS
 Are there any? Why have they not been fixed?
+
 
 ## DEPLOYMENT
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
@@ -79,18 +114,16 @@ From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here -
 
-## CREDIT
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+## CREDIT  
 
-### Images:  
-- All images used are primary sources (my own)  
-- I received permission to use photos of others   
+### Media:  
+- I have used the Eatwell Guide image from the NHS (https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/) on my Nutritions page.  
+- All other images used are primary sources (my own) with permission received to use photos of clients should they be in them.  
 
-### Links used for text content only:  
+### Content:  
 
-#### Links used for Workout Info:  
+#### Workout Info:
 
 Weightlifting:  
 - https://personaltouchfitness.co.uk/healthy-advice/physical-wellbeing/muscular-endurance/#:~:text=Muscular%20endurance%20is%20the%20ability,of%20repetitions%20you%20could%20complete  
@@ -103,7 +136,10 @@ Cardio:
 Stretching:  
 - https://www.health.harvard.edu/staying-healthy/the-importance-of-stretching  
  
-#### Links used for Nutrition:
+#### Nutrition:
+
+Macronutrients:  
+- https://www.bhf.org.uk/informationsupport/heart-matters-magazine/nutrition/ask-the-expert/macronutrients#:~:text=Macronutrients%20are%20the%20nutrients%20we,our%20micronutrients%20along%20with%20macronutrients  
 
 Carbs:  
 - https://www.reidhealth.org/blog/carbohydrates-101-the-benefits-of-carbohydrates#:~:text=Carbohydrates%20are%20your%20body's%20main,blood%20cholesterol%20levels%20in%20check  
@@ -111,31 +147,28 @@ Carbs:
 - https://www.newhealthadvisor.org/Sources-of-Carbohydrates  
 - html#:~:text=Best%20Sources%20of%20Carbohydrates%201%201.%20Sweet%20Potato,Bananas%20...%208%208.%20Chestnuts%20...%20More%20items  
 
-
 Protein:  
 - https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/protein/  
 - https://www.nutrition.org.uk/healthy-sustainable-diets/protein/?level=Consumer  
 - https://www.mountsinai.org/health-library/tests/hemoglobin  
 - https://weighttraining.guide/nutrition/protein-in-weight-training/#:~:text=Why%20is%20protein%20important%20for%20weight%20training%3F%20Protein,fibers%20after%20they%20have%20been%20damaged%20by%20workouts  
 - https://www.bbcgoodfood.com/howto/guide/best-sources-protein  
-
  
 Fats:  
 - https://www.nhs.uk/live-well/eat-well/food-types/different-fats-nutrition/  
 - https://meritagemed.com/15-good-fats-eat/#:~:text=15%20Good%20Fats%20To%20Eat%201%201.%20Dark,...%208%208.%20Fatty%20Fish%20...%20More%20items  
 
+Eatwell:
+- https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/  
 
 #### Links used for README.md file:  
-https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/  
+- https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/  
 
-#### CSS Links:
+#### CSS Links used to help for styling:  
 - https://torquemag.io/2022/05/customize-text-css/#:~:text=You%20simply%20determine%20the%20element,such%20as%20serif%20or%20monospace%20  
 - https://webaim.org/resources/contrastchecker/  
 - https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding  
 - https://medium.com/@dylanon/throwing-shade-how-to-shade-images-in-html-css-9d37b17b9d10  
-
-
- 
 
 
 ## FUTURE FEATURES  
