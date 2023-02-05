@@ -1,4 +1,4 @@
-![RVPT logo](css/images/pt-logo-black-font.jpg)
+![RVPT logo](assets/images/pt-logo-black-font.jpg)
 
 # RVPT WEBSITE
 
@@ -11,9 +11,8 @@ Ideally most users of this website are perhaps considering getting themselves a 
 
 | Section | Line it starts on | 
 | --- | --- |
-| Project Logo, title and desciption | line 1 |
-| Table of Contents | line 9 |
-| Features | line 25 |
+| [Project Logo, title and desciption]() | line 1 |
+| [Features](#features) | line 25 |
 | UX / UI Section | line 40 |
 | Testing | line ... |
 | Unfixed Bugs | line ... |
@@ -49,7 +48,7 @@ Ideally most users of this website are perhaps considering getting themselves a 
 
 ### User Stories:
 As a person new to fitness:
-- I am looking to learn some information about workouts and food to hel get me started  
+- I am looking to learn some information about workouts and food to help get me started  
 - I want to learn about the Personal Trainer and see if they know their stuff and can bring me value  
 - I want to see if I can envision doing private sessions with the trainer by gettin to know them better  
 - I want to trust this trainer by seeing reviews/testimonials
@@ -70,16 +69,17 @@ As an existing client:
 
 ### Wireframes:
 - To see the initial stage of the wireframe, press on this link:  
-- [To see the second and final wireframe design, press on this link](file:///D:/PT%20photos%20for%20website/PT%20website%20wireframe.pdf)  
+- [To see the second and final wireframe design, press on this link](wireframes/PT_website_wireframe.pdf)  
+- 
 
 
-- ![RVPT website wireframe](wireframes/wireframe1.png.jpg)  
-- ![RVPT website wireframe](wireframes/wireframe2.png.jpg)  
-- ![RVPT website wireframe](wireframes/wireframe3.png.jpg)  
-- ![RVPT website wireframe](wireframes/wireframe4.png.jpg)  
-- ![RVPT website wireframe](wireframes/wireframe5.png.jpg)  
-- ![RVPT website wireframe](wireframes/wireframe6.png.jpg)  
-- ![RVPT website wireframe](wireframes/wireframe7.png.jpg)  
+- ![RVPT website wireframe](wireframes/wireframe1.png)  
+- ![RVPT website wireframe](wireframes/wireframe2.png)  
+- ![RVPT website wireframe](wireframes/wireframe3.png)  
+- ![RVPT website wireframe](wireframes/wireframe4.png)  
+- ![RVPT website wireframe](wireframes/wireframe5.png)  
+- ![RVPT website wireframe](wireframes/wireframe6.png)  
+- ![RVPT website wireframe](wireframes/wireframe7.png)  
 
 ## Database structure (PP3, PP4, PP5):
 - 
@@ -169,6 +169,7 @@ Eatwell:
 - https://webaim.org/resources/contrastchecker/  
 - https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding  
 - https://medium.com/@dylanon/throwing-shade-how-to-shade-images-in-html-css-9d37b17b9d10  
+- https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
 
 
 ## FUTURE FEATURES  
