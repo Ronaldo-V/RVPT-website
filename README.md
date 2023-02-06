@@ -9,19 +9,20 @@ Ideally most users of this website are perhaps considering getting themselves a 
 
 ## TABLE OF CONTENTS
 
-| Section | Line it starts on | 
-| --- | --- |
-| [Project Logo, title and desciption]() | line 1 |
-| [Features](#features) | line 25 |
-| UX / UI Section | line 40 |
-| Testing | line ... |
-| Unfixed Bugs | line ... |
-| Deployment | line ... |
-| Credit | line ... |
-| Future Features | line ... |
+| Section |
+| --- |
+| [Project Logo, title and desciption](#rvpt-website) |
+| [Features](#features) |
+| [UX / UI](#uxui-section) |
+| [Testing](#testing) |
+| [Unfixed Bugs](#unfixed-bugs) |
+| [Deployment](#deployment) |
+| [Credit](#credit) |
+| [Future Features](#future-features) |
 
 
 ## FEATURES
+
 - The navbar has a logo of the business with a dark background to separate it from the page contents.  
 - Just like the navbar, the footer has the same color theme. This color repetition and structure is said to make user experiences better. They like it when a website has a common theme/layout so that it then becomes quick to learn/easy to use. The green color used is supposed to be nice neutral color, but also represent grass and an outdoor feel as my sessions are predominantly delivered in parks.  
 - The footer is also being used as a sales point leading users to the enquire page and my social accounts, both designed to help bring in new clients.  
@@ -39,40 +40,44 @@ Ideally most users of this website are perhaps considering getting themselves a 
 ## UX/UI SECTION  
 
 ### Site Goals:
--  The goals of this site is inform users about the Personal Training business, general health and fitness knowledge and make them wanting more and signing up for PT sessions. The site should be easy to navigate through, consistent with design, as well as make users want to visit again. It should be aestetically pleasing with all text being clear to read, all generating a good user experience.  
+-  The goals of this site is inform users about the Personal Training business, general health and fitness knowledge and ultimately get them to sign up for PT sessions. The site should be easy to navigate through, consistent with design, as well as make users want to visit again. It should be aestetically pleasing with all text being clear to read, all generating a good user experience.  
 
 ### Design Choices:
 - Black navbar and footer have been choosen to be this color to clearly separate it from the main conents of the page.  
 - Green color when hovering is meant to indicate grass as most sessions will be outside at local parks.  
 - Colorful photos, with all workout photos being outdoors as this will be the primary location of sessions.  
+- Writing over photos to help keep sections seperate with a clear image relating to the topic.  
+- Ubuntu font selected as I feel as though it has a similar feel to the logo font used.  
+- PT logo in the enquire section to reminder users that this is a legitimate company, while also providing a clear display of the logo as it is only seen elsewhere in the nav which is rather small.  
 
 ### User Stories:
-As a person new to fitness:
-- I am looking to learn some information about workouts and food to help get me started  
-- I want to learn about the Personal Trainer and see if they know their stuff and can bring me value  
-- I want to see if I can envision doing private sessions with the trainer by gettin to know them better  
-- I want to trust this trainer by seeing reviews/testimonials
+As a website user:  
+- I want to press on the logo and be taken to the home page
+- I want to press home and be taken to the home page
+- I want to press workout info and be taken to the the workout info page
+- I want to press nutrition and be taken to the nurtrition page
+- I want to press enquire now in the header and be taken to the enquire page
+- I want to press the instagram icon and be taken to the businesses instagram account
+- I want to press the facebook icon and be taken to the businesses facebook account
+- I want to press enquire now in the footer and be taken to the enquire page
+- I want to press Eatwell Guide and be redirected to the NHS website referncing this
+- I want to press the download or print link in the nutritions page and have a printable/downloadable doc
+- I want to press submit in the form and my form be submitted
 
-As an experienced gym-goer starting to plateau:
-- I am exploring the possibility of getting myself a trainer to help me    
-- I want to leave this website knowing more stuff that can help me  
+As a person new to fitness:
+- I want to learn new information about workouts and food to help get started on my fitness journey
+- I want to trust the information provided by seeing reviews/testimonials about the business
 
 As a person wanting a PT:
-- I need to see value in a trainer  
-- I need to see testimonials  
-- I need to work out if I will get along with them  
+- I want to learn about the Personal Trainer and see if they know their stuff and can bring me value if I decide to train with them
+- I want to see if I can envision doing private sessions with the trainer by gettin to know them/the business better  
+- I need to see testimonials as I need to know how other people have found their training experinces with the PT
 
-As an existing client:
-- I need a place where I can track workouts/food intake  
-- I need support from others going through the same process as me  
-- I need extra benefits for being a client  
+As an existing client:  
+- I need a place where I can track workouts/food intake to see how much I am progressing  
+- I need a support center with others going through the same process as me to help me stay on track when I feel like giving up  
 
 ### Wireframes:
-- To see the initial stage of the wireframe, press on this link:  
-- [To see the second and final wireframe design, press on this link](wireframes/PT_website_wireframe.pdf)  
-- 
-
-
 - ![RVPT website wireframe](wireframes/wireframe1.png)  
 - ![RVPT website wireframe](wireframes/wireframe2.png)  
 - ![RVPT website wireframe](wireframes/wireframe3.png)  
@@ -91,11 +96,17 @@ As an existing client:
 Include screenshots
 
 ## TESTING
+
 Did you test html code on W3C validator or CSS code on (Jigsaw) validator. Convince reader that enough testing has been done and that the site works well.
 
 | Feature | Expect | Action | Result |
-| --- | --- |
+| --- | --- | --- | --- |
 | Home Navbar Button | When clicked, the home page will open | Clicked Home on the Navbar | Home page opened when clicked - Success |
+| All other nav elements | When I click on 'Workout Info' 'Nutrition' or 'Enquire Now' on the Navbar, the relevant page will open | Clicked 'Workout Info' 'Nutrition' or 'Enquire Now' on the Navbar | The relevant page opened - Success |
+| Facebook link | When clicked, I will be redirected to the businesses Facebook account | Clicked Facebook icon in the footer section | Was redirected to the facebook page - Success |
+| Instagram link | When clicked, I will be redirected to the businesses Instagram account | Clicked Instagram icon in the footer section | Was redirected to the Instagram page - Success |
+| Eatwell Guide link | Press NHS Eatwell Guide and be taken to the NHS website regarding this | Pressed on the NHS Eatwell Guide link | Was taken to the Eatwell Guide section on the NHS website - Success |
+| Daily food planner link | Press download or print in nutritiongs page and be taken to the printable doc regarding this | Pressed on the download or print link in the nutritions page above the Eatwell Guide | Was taken to the food planner document - Success |
 | Form Submit Button | The form submits when submit button is clicked | Clicked submit button on the form | The form successfully submitted when submit was clicked |
 
 Include screenshots
@@ -145,7 +156,6 @@ Carbs:
 - https://www.reidhealth.org/blog/carbohydrates-101-the-benefits-of-carbohydrates#:~:text=Carbohydrates%20are%20your%20body's%20main,blood%20cholesterol%20levels%20in%20check  
 - https://medlineplus.gov/carbohydrates.html#:~:text=What%20are%20carbohydrates%3F,cells%2C%20tissues%2C%20and%20organs  
 - https://www.newhealthadvisor.org/Sources-of-Carbohydrates  
-- html#:~:text=Best%20Sources%20of%20Carbohydrates%201%201.%20Sweet%20Potato,Bananas%20...%208%208.%20Chestnuts%20...%20More%20items  
 
 Protein:  
 - https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/protein/  
@@ -161,10 +171,10 @@ Fats:
 Eatwell:
 - https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/  
 
-#### Links used for README.md file:  
+#### Links used to help structure README.md file:  
 - https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/  
 
-#### CSS Links used to help for styling:  
+#### Links used to help for CSS styling:  
 - https://torquemag.io/2022/05/customize-text-css/#:~:text=You%20simply%20determine%20the%20element,such%20as%20serif%20or%20monospace%20  
 - https://webaim.org/resources/contrastchecker/  
 - https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding  

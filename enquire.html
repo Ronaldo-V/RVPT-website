@@ -42,7 +42,7 @@
       <div class="container-fluid">
         <img id="pt-logo-enquire" src="assets/images/pt-logo-black-font.jpg" alt="RVPT">
         <div class="row justify-content-center">
-          <div class="col-8" id="enquire-text">
+          <div class="col-xs-12 col-sm-11 col-md10 col-lg-9 col-xl-8" id="enquire-text">
             <h5>I am sure by now, you have leanred that fitness is more than just working out and more than just losing weight. It has many other physical and mental benefits too. 
             </h5>
             <br>
@@ -69,23 +69,24 @@
       <form>
         <div class="container-fluid">
           <div class="form-row justify-content-center">
-            <div class="col-8 form-text col-md-4 mb-3">
+            <div class="form-text col-xs-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">
               <label for="first-name">First Name</label>
-              <input type="text" class="form-control" id="first-name" placeholder="First name">
+              <input type="text" class="form-control" id="first-name" placeholder="First name" required>
             </div>
-            <div class="col-8 form-text col-md-4 mb-3">
+            <div class="form-text col-xs-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">
               <label for="last-name">Last Name</label>
-              <input type="text" class="form-control" id="last-name" placeholder="Last name">
+              <input type="text" class="form-control" id="last-name" placeholder="Last name" required>
             </div>
           </div>
           <div class="form-row justify-content-center">
-            <div class="col-8 form-text col-md-4 mb-3">
+            <div class="form-text col-xs-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">
               <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="email@address.co.uk">
+              <input type="email" class="form-control" id="email" placeholder="email@address.co.uk" required>
             </div>
           </div>
+          <br>
           <div class="form-row justify-content-center">
-            <div class="col-8 form-text">
+            <div class="form-text col-xs-12 col-sm-10 col-md-10 col-lg-8 col-xl-8">
               <h5>What is your fitness goal <em>(select all that apply)</em></h5>
               <div>
                 <div class="form-check form-check-inline">
@@ -130,12 +131,16 @@
                   </label>
                   <input class="form-check-input" type="checkbox" value="" id="other-goal">
                 </div>
-                <div class="mb-3">
-                  <label for="health-concern-textarea">Any Injuries or health concerns</label>
-                  <textarea class="form-control" id="health-concern-textarea" placeholder="e.g. I have Asthma and an injury to my right knee">
-                  </textarea>
+                <br>
+                <div class="form-row justify-content-center">
+                  <div class="form-text col-xs-12 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+                    <label for="health-concern-textarea">Any Injuries or health concerns</label>
+                    <textarea class="form-control" id="health-concern-textarea" placeholder="e.g. I have Asthma and an injury to my right knee">
+                    </textarea>
+                  </div>
                 </div>
               </div>
+              <br>
               <button class="submit-button" type="submit">Submit form</button>
               <br>
             </div>
