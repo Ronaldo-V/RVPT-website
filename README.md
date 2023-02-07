@@ -98,7 +98,7 @@ Include screenshots
 ## TESTING
 
 Did you test html code on W3C validator or CSS code on (Jigsaw) validator. Convince reader that enough testing has been done and that the site works well.
-
+### Testing of website
 | Feature | Expect | Action | Result |
 | --- | --- | --- | --- |
 | Home Navbar Button | When clicked, the home page will open | Clicked Home on the Navbar | Home page opened when clicked - Success |
@@ -108,12 +108,34 @@ Did you test html code on W3C validator or CSS code on (Jigsaw) validator. Convi
 | Eatwell Guide link | Press NHS Eatwell Guide and be taken to the NHS website regarding this | Pressed on the NHS Eatwell Guide link | Was taken to the Eatwell Guide section on the NHS website - Success |
 | Daily food planner link | Press download or print in nutritiongs page and be taken to the printable doc regarding this | Pressed on the download or print link in the nutritions page above the Eatwell Guide | Was taken to the food planner document - Success |
 | Form Submit Button | The form submits when submit button is clicked | Clicked submit button on the form | The form successfully submitted when submit was clicked |
+| Website Viewport | My website should not be able to scroll horizontally | I pressed inspect on my website, selected the device toolbar, changed the device to a smaller screen width, then I see a thin white trim down the right side of the device likely caused by padding | This does not effect the functionality of the website, but it does not look appealing to users |
+| Nav Viewport | When I shrink my tab or load the website on a different device, The text, images and display will change slightly to suit the device I am on | I pressed inspect on my website, selected the device toolbar, changed the device to ipad, iphone and other devices | For devices 576px screen width+ there was no issues. But for devices 575px screen width or less, the Navbar disappeared |
 
-Include screenshots
+### Website viewport for ipad and iphone:  
+- ![website viewport no.1](testing-screenshots/viewport-test-1.png)
+- ![website viewport no.2](testing-screenshots/viewport-test-2.png)
+
+### Nav viewport for iphone:  
+- ![nav viewport no.1](testing-screenshots/viewport-test-3.png)
+
+### Testing of HTML  
+- ![index.html no.1](testing-screenshots/index.html-1-validator-test.png)
+- ![index.html no.2](testing-screenshots/index.html-2-validator-test.png)
+- ![index.html no.3](testing-screenshots/index.html-3-validator-test.png)
+- ![workout.html](testing-screenshots/workout.html-1-validator-test.png)
+- ![nutrition.html](testing-screenshots/nutrition.html-1-validator-test.png)
+- ![enquire.html](testing-screenshots/enquire.html-1-validator-test.png)
+
+### Testing of CSS  
+- ![css test no.1](testing-screenshots/css-validator-test-1.png)
+- ![css test no.2](testing-screenshots/css-validator-test-2.png)
+- ![css test no.3](testing-screenshots/css-validator-test-3.png)
 
 
 ## UNFIXED BUGS
-Are there any? Why have they not been fixed?
+- Website Viewport issue where there is a thin white trim down the right side of some devices. It becomes more noticeable the smaller the device gets. Although no content is hidden, this needs to be fixed. Need to 'inspect' my website and find the issue(s)
+- Nav Viewport issue for devices 575px screen width or less. The Navbar disappears and users cannot navigate through the page. Can be fixed with a dropdown menu for smaller devices. This needs to be fixed ASAP. Have not had enough time to resolve the issue. Image shows the issue to be resolved.
+![nav dropdown issue](testing-screenshots/nav-dropdown-toggler-issue.png) 
 
 
 ## DEPLOYMENT
@@ -184,7 +206,7 @@ Eatwell:
 
 ## FUTURE FEATURES  
 Images:  
-- Get better quality images  
+- Get 4k quality images  
 
 Testimonials:
 - Give testimonials its own page where I can have more reviews and include before/after photos  
