@@ -119,10 +119,10 @@ As an existing client:
 - ![css test no.3](testing-screenshots/css-validator-test-3.png)
 
 ### Lighthouse testing for performance, accessibility and best practices:
-- ![Lighthouse testing for the home page on a desktop](testing-screenshots/lighthouse-desktop-test-home.png)
-- ![Lighthouse testing for the home page on a mobile](testing-screenshots/lighthouse-mobile-test-home.png)
-- ![Lighthouse testing for the workout page on a desktop](testing-screenshots/lighthouse-desktop-test-workout.png)
-- ![Lighthouse testing for the workout page on a mobile](testing-screenshots/lighthouse-mobile-test-workout.png)
+- ![Lighthouse test for the home page on a desktop view](testing-screenshots/lighthouse-desktop-test-home.png)
+- ![Lighthouse test for the home page on a mobile view](testing-screenshots/lighthouse-mobile-test-home.png)
+- ![Lighthouse test for the workout page on a desktop view](testing-screenshots/lighthouse-desktop-test-workout.png)
+- ![Lighthouse test for the workout page on a mobile view](testing-screenshots/lighthouse-mobile-test-workout.png)
 
 ## UNFIXED BUGS
 - Website Viewport issue where there is a thin white trim down the right side of some devices. It becomes more noticeable the smaller the device gets. Although no content is hidden, this needs to be fixed. Need to 'inspect' my website and find the issue.
