@@ -1,14 +1,11 @@
 ![RVPT logo](assets/images/pt-logo-black-font.jpg)
 
 # RVPT WEBSITE
-
 This is a Personal Training website designed to help provide information to people new to the fitness industry but more so, help generate leads (potential clients). 
 
 Ideally most users of this website are perhaps considering getting themselves a personal trainer. They will find this website useful, they would have hopefully learned at least one new thing about workouts or nutrition, they would have learnt more about myself and my PT business, but ultimately, they end up completing the enquiry form at the end, in the hopes that they end up becoming a client of mine.
  
-
 ## TABLE OF CONTENTS
-
 | Section |
 | --- |
 | [Project Logo, title and desciption](#rvpt-website) |
@@ -20,9 +17,7 @@ Ideally most users of this website are perhaps considering getting themselves a 
 | [Credit](#credit) |
 | [Future Features](#future-features) |
 
-
 ## FEATURES
-
 - The navbar has a logo of the business with a dark background to separate it from the page contents.  
 - Just like the navbar, the footer has the same color theme. This color repetition and structure is said to make user experiences better. They like it when a website has a common theme/layout so that it then becomes quick to learn/easy to use. The green color used is supposed to be nice neutral color, but also represent grass and an outdoor feel as my sessions are predominantly delivered in parks.  
 - The footer is also being used as a sales point leading users to the enquire page and my social accounts, both designed to help bring in new clients.  
@@ -35,7 +30,6 @@ Ideally most users of this website are perhaps considering getting themselves a 
 - Lastly, the enquire page, summarising why you should train with me, followed by a form to complete if interested in personal training. 
 - Each photo is deliberately selected to match with the topic we are talking about. All text is written over the photo relating to that section which we are talking about. I aim to create clear division in topics by having them displayed on different photos. So each photo, is a different topic. This structure stayed consistent throughout to keep the user experience good.
 - As this website has many pictures with lots of colors, I wanted to keep the text simple and clear, which is why I opted for a lack of font-awesome icons and a dark shade over photos to aid the reading experience. Plus I feel as though the font-awesome icons would have just been of the same thing as the background image, which I feel there is no need to repeat.  
-
 
 ## UX/UI SECTION  
 
@@ -86,18 +80,8 @@ As an existing client:
 - ![RVPT website wireframe](wireframes/wireframe6.png)  
 - ![RVPT website wireframe](wireframes/wireframe7.png)  
 
-## Database structure (PP3, PP4, PP5):
-- 
-
-## Anything else relating to UX/UI:
-- 
-
-
-Include screenshots
-
 ## TESTING
 
-Did you test html code on W3C validator or CSS code on (Jigsaw) validator. Convince reader that enough testing has been done and that the site works well.
 ### Testing of website
 | Feature | Expect | Action | Result |
 | --- | --- | --- | --- |
@@ -107,18 +91,21 @@ Did you test html code on W3C validator or CSS code on (Jigsaw) validator. Convi
 | Instagram link | When clicked, I will be redirected to the businesses Instagram account | Clicked Instagram icon in the footer section | Was redirected to the Instagram page - Success |
 | Eatwell Guide link | Press NHS Eatwell Guide and be taken to the NHS website regarding this | Pressed on the NHS Eatwell Guide link | Was taken to the Eatwell Guide section on the NHS website - Success |
 | Daily food planner link | Press download or print in nutritiongs page and be taken to the printable doc regarding this | Pressed on the download or print link in the nutritions page above the Eatwell Guide | Was taken to the food planner document - Success |
-| Form Submit Button | The form submits when submit button is clicked | Clicked submit button on the form | The form successfully submitted when submit was clicked |
-| Website Viewport | My website should not be able to scroll horizontally | I pressed inspect on my website, selected the device toolbar, changed the device to a smaller screen width, then I see a thin white trim down the right side of the device likely caused by padding | This does not effect the functionality of the website, but it does not look appealing to users |
-| Nav Viewport | When I shrink my tab or load the website on a different device, The text, images and display will change slightly to suit the device I am on | I pressed inspect on my website, selected the device toolbar, changed the device to ipad, iphone and other devices | For devices 576px screen width+ there was no issues. But for devices 575px screen width or less, the Navbar disappeared |
+| Form Submit Button | The form submits when submit button is clicked | Clicked submit button on the form | The form submitted when the submit button was clicked - Success |
+| Content responsiveness for various viewports | Text, images and all other related content should shrink when the device screen width gets smaller | I pressed inspect on my website, selected the device toolbar, changed the device to a smaller screen width | Images and text shrink while layout changes slightly. Relevant photo [here](#content-responsiveness) |
+| Website responsiveness for various viewports | My website should not be able to scroll horizontally | I pressed inspect on my website, selected the device toolbar, changed the device to a smaller screen width | I see a thin white trim down the right side of the device likely caused by padding. This does not effect the functionality of the website, but it does not look appealing to users. Relevant photo [here](#website-viewport-for-ipad-and-iphone)|
+| Nav responsiveness for various viewports | When I shrink my tab or load the website on a different device, The text, images and display will change slightly to suit the device I am on | I pressed inspect on my website, selected the device toolbar, changed the device to ipad, iphone and other devices | For devices 576px screen width+ there was no issues. But for devices 575px screen width or less, the Navbar disappeared. Relevant photo [here](#nav-viewport-for-iphone)|
+
+### Content responsiveness:  
+- ![ipad responsiveness view](testing-screenshots/viewport-test-1.png)
 
 ### Website viewport for ipad and iphone:  
-- ![website viewport no.1](testing-screenshots/viewport-test-1.png)
-- ![website viewport no.2](testing-screenshots/viewport-test-2.png)
+- ![mobile responsiveness view](testing-screenshots/viewport-test-2.png)
 
 ### Nav viewport for iphone:  
-- ![nav viewport no.1](testing-screenshots/viewport-test-3.png)
+- ![nav responsiveness on mobile](testing-screenshots/viewport-test-3.png)
 
-### Testing of HTML  
+### Testing of HTML:  
 - ![index.html no.1](testing-screenshots/index.html-1-validator-test.png)
 - ![index.html no.2](testing-screenshots/index.html-2-validator-test.png)
 - ![index.html no.3](testing-screenshots/index.html-3-validator-test.png)
@@ -126,38 +113,53 @@ Did you test html code on W3C validator or CSS code on (Jigsaw) validator. Convi
 - ![nutrition.html](testing-screenshots/nutrition.html-1-validator-test.png)
 - ![enquire.html](testing-screenshots/enquire.html-1-validator-test.png)
 
-### Testing of CSS  
+### Testing of CSS:  
 - ![css test no.1](testing-screenshots/css-validator-test-1.png)
 - ![css test no.2](testing-screenshots/css-validator-test-2.png)
 - ![css test no.3](testing-screenshots/css-validator-test-3.png)
 
+### Lighthouse testing for performance, accessibility and best practices:
+- ![Lighthouse testing for the home page on a desktop](testing-screenshots/lighthouse-desktop-test-home.png)
+- ![Lighthouse testing for the home page on a mobile](testing-screenshots/lighthouse-mobile-test-home.png)
+- ![Lighthouse testing for the workout page on a desktop](testing-screenshots/lighthouse-desktop-test-workout.png)
+- ![Lighthouse testing for the workout page on a mobile](testing-screenshots/lighthouse-mobile-test-workout.png)
 
 ## UNFIXED BUGS
-- Website Viewport issue where there is a thin white trim down the right side of some devices. It becomes more noticeable the smaller the device gets. Although no content is hidden, this needs to be fixed. Need to 'inspect' my website and find the issue(s)
+- Website Viewport issue where there is a thin white trim down the right side of some devices. It becomes more noticeable the smaller the device gets. Although no content is hidden, this needs to be fixed. Need to 'inspect' my website and find the issue.
 - Nav Viewport issue for devices 575px screen width or less. The Navbar disappears and users cannot navigate through the page. Can be fixed with a dropdown menu for smaller devices. This needs to be fixed ASAP. Have not had enough time to resolve the issue. Image shows the issue to be resolved.
 ![nav dropdown issue](testing-screenshots/nav-dropdown-toggler-issue.png) 
 
-
 ## DEPLOYMENT
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+The project was developed in Gitpod, committed and push to GitHub through using the terminal section in Gitpod.
+To deploy this page to GitHub pages from its GitHub repository, the following steps were taken:
+1. Log into GitHub
+2. From the list of repositories on the screen, select RVPT-website
+3. From the menu list near the top below the project name, select settings
+4. There will be a nav down the left of the screen. Find pages and select it when found
+5. Select the branch dropdown which will say none and change it to main
+6. Press the save button to the right of it
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here -
+How to run this project locally:
+1. To clone this project into Gitpod you will need a GitHub account
+2. Use the Chrome browser
 
+Then follow the steps:
+1. Install Gitpod Browser Extensions for Chrome
+2. After installation, restart the browser
+3. Log into Gitpod with your Gitpod account
+4. Navigate to the projet GitHub repository
+5. Click the green 'Gitpod' button in the top right corner of the repository
+6. This will trigger a new Gitpod workspace to be created from the code in GitHub where you can work locally
 
 ## CREDIT  
 
-### Media:  
+### Media credit:  
 - I have used the Eatwell Guide image from the NHS (https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/) on my Nutritions page.  
 - All other images used are primary sources (my own) with permission received to use photos of clients should they be in them.  
 
-### Content:  
+### Content credit:  
 
 #### Workout Info:
-
 Weightlifting:  
 - https://personaltouchfitness.co.uk/healthy-advice/physical-wellbeing/muscular-endurance/#:~:text=Muscular%20endurance%20is%20the%20ability,of%20repetitions%20you%20could%20complete  
 
@@ -170,7 +172,6 @@ Stretching:
 - https://www.health.harvard.edu/staying-healthy/the-importance-of-stretching  
  
 #### Nutrition:
-
 Macronutrients:  
 - https://www.bhf.org.uk/informationsupport/heart-matters-magazine/nutrition/ask-the-expert/macronutrients#:~:text=Macronutrients%20are%20the%20nutrients%20we,our%20micronutrients%20along%20with%20macronutrients  
 
@@ -201,12 +202,17 @@ Eatwell:
 - https://webaim.org/resources/contrastchecker/  
 - https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding  
 - https://medium.com/@dylanon/throwing-shade-how-to-shade-images-in-html-css-9d37b17b9d10  
-- https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
+- https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors  
 
+#### Links used to help write HTML code:  
+Bootstrap:  
+- Navbar (https://getbootstrap.com/docs/4.5/components/navbar/)  
+- Grid systems and grid options (https://getbootstrap.com/docs/4.5/layout/grid/#grid-options)  
+- The table-bordered class only (https://getbootstrap.com/docs/4.5/content/tables/#bordered-table)  
 
 ## FUTURE FEATURES  
 Images:  
-- Get 4k quality images  
+- Get 4k quality images with minimal colors in background  
 
 Testimonials:
 - Give testimonials its own page where I can have more reviews and include before/after photos  
